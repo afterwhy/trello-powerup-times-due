@@ -1,0 +1,25 @@
+{
+  "name": "trello-powerup-times-due",
+  "version": "0.0.1",
+  "description": "A Trello Power-Up that can show time due to a deadline and how many cards per day should be dealt with to achieve this",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": "https://github.com/afterwhy/trello-powerup-times-due",
+  "dependencies": {
+    "compression": "^1.7.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.2",
+    "confetti-js": "^0.0.15"
+  },
+  "engines": {
+    "node": "12"
+  },
+  "keywords": [
+    "power-ups",
+    "trello",
+    "glitch"
+  ],
+  "license": "MIT"
+}
